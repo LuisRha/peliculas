@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* por luis*/
+
+.navbar-brand h1 {
+    background-color: #333;
+    color: #ffffff; /* Color de texto claro */
+    font-family: Roboto, sans-serif; /* Tipografía legible */
+    letter-spacing: 1px; /* Espacio entre letras */
+    word-spacing: 2px; /* Espacio entre palabras */
+    font-size: 90px; /* Tamaño de fuente adecuado */
+    font-weight: bold; /* Grosor de fuente para destacar */
+    border-radius: 20px;
+  }
+
+
+/* luis*/
+
+
+/* peliculas contenido */
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .movie-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .pelicula {
+    display: grid-item;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .pelicula img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .pelicula h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .pelicula p {
+    margin-bottom: 10px;
+  }
+  
+  .pelicula a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .pelicula a:hover {
+    background-color: #0056b3;
+  }
+/*peliulas contenido */
+
+   
+.peliculasOnline {
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally */
+  }
+
+  .titulo {
+    width: 200px; /* Adjust width as needed */
+  }
+  .titulo,
+  form {
+    margin: 10px; /* Add spacing around elements */
+  }
+    
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#peliculas {
+    margin-top: 20px;
+}
+
+.pelicula {
+    margin-bottom: 20px;
+}
+
+.pelicula img {
+    width: 100%;
+    height: auto;
+}
+
+.pelicula h3 {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none; /* Quitamos los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Usamos flexbox para organizar los elementos */
+}
+
+header nav ul li {
+    margin-right: 20px; /* Añadimos un margen entre los elementos */
+}
+
+header nav ul li:last-child {
+    margin-right: 0; /* Quitamos el margen del último elemento */
+}
+
+header nav ul li a {
+    text-decoration: none; /* Quitamos el subrayado del enlace */
+    color: #333; /* Cambiamos el color del texto */
+}
