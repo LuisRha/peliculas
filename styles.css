@@ -26,8 +26,50 @@ header {
 
 
 /* luis*/
+.container {
+  display: flex;
+}
 
+.sidebar {
+  position: fixed; /* O "absolute" para un sidebar flexible */
+  top: 0;
+  left: 0;
+  width: 250px; /* Ajusta el ancho según sea necesario */
+  height: 100vh; /* O establece una altura específica */
+  background-color: #333; /* Elige un color de fondo */
+  padding: 20px;
+}
 
+nav {
+  display: flex; /* Para una navegación horizontal */
+  flex-direction: column; /* Apila los enlaces verticalmente */
+}
+
+nav ul {
+  list-style: none; /* Elimina los puntos de bala predeterminados */
+  padding: 0; /* Reinicia el padding predeterminado */
+  margin: 0; /* Reinicia el margin predeterminado */
+}
+
+nav ul li a {
+  display: block; /* Haz que los enlaces llenen el contenedor */
+  padding: 10px 15px; /* Ajusta el padding según sea necesario */
+  margin: 5px 0; /* Agrega espacio entre enlaces */
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+  color: #fff; /* Color del texto del enlace */
+  font-weight: bold; /* Haz que los enlaces resalten */
+}
+
+nav ul li a:hover {
+  background-color: #007bff; /* Cambia el fondo al pasar el cursor */
+  color: #fff; /* Mantén el color del texto brillante */
+}
+
+main {
+  flex: 1; /* Ocupa el espacio restante */
+  padding: 20px;
+}
+ 
 /* peliculas contenido */
 /* style.css */
 
